@@ -167,7 +167,7 @@ __interrupt void USCI0RX_ISR(void)
 }
 
 void CollectDataForStatusMsg(void){ // Gather information to send to PC- Status
-    StatusArray[0] = "#";
+    StatusArray[0] = 35;
     StatusArray[1] = SM_Counter;
 }
 //==========================================================
